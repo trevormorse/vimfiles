@@ -133,10 +133,6 @@ autocmd BufWritePre *.install :%s/\s\+$//e
 autocmd BufWritePre *.inc :%s/\s\+$//e
 autocmd BufWritePre *.tpl :%s/\s\+$//e
 
-" phpdoc generator <ctrl+o>
-source /home/trevor/.vim/php-doc.vim
-imap <C-o> <ESC>:set paste<CR>:exe PhpDoc()<CR>:set nopaste<CR>
-
 " Autoclose for [, (, {, " and '
 source /home/trevor/.vim/bundle/autoclose/autoclose.vim
 
