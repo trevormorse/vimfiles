@@ -7,3 +7,6 @@
 [submodule "bundle/guicolorscheme"]
 	path = bundle/guicolorscheme
 	url = https://github.com/vim-scripts/guicolorscheme.vim.git
+[submodule "bundle/snippetsemu"]
+	path = bundle/snippetsemu
+	url = https://github.com/vim-scripts/snippetsEmu.git
