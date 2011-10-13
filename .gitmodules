@@ -4,3 +4,6 @@
 [submodule "bundle/autoclose"]
 	path = bundle/autoclose
 	url = https://github.com/korpz/Autoclose-vim.git
+[submodule "bundle/guicolorscheme"]
+	path = bundle/guicolorscheme
+	url = https://github.com/vim-scripts/guicolorscheme.vim.git
