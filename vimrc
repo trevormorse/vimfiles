@@ -1,3 +1,7 @@
+" enable pathogen
+call pathogen#runtime_append_all_bundles()
+call pathogen#helptags()
+
 " tabs are 4 characters
 set tabstop=4
 set softtabstop=4
