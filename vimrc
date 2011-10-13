@@ -138,7 +138,7 @@ source /home/trevor/.vim/php-doc.vim
 imap <C-o> <ESC>:set paste<CR>:exe PhpDoc()<CR>:set nopaste<CR>
 
 " Autoclose for [, (, {, " and '
-source /home/trevor/.vim/autoclose.vim
+source /home/trevor/.vim/bundle/autoclose/autoclose.vim
 
 " F6 toggles line numbers
 map <F6> :set invnumber number?<CR>
