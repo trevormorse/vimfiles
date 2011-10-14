@@ -220,6 +220,10 @@ inoremap jj <ESC>
 " toggle task status
 map <silent> <leader>ts <ESC>:call Toggle_task_status()<CR>
 
+" Show unecessary whitespace and newlines 
+set list
+set listchars=tab:▸\ ,nbsp:.,eol:¬,trail:.,precedes:.
+
 " Here we are adding the tab number to the tab in the gui, much easier then
 " guessing what tab to jump to
 set showtabline=2 " always show tabs in gvim, but not vim
