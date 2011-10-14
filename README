@@ -2,7 +2,7 @@ My vim config files
 
 Installation:
 
-    git clone git@github.com:trevormorse/vimfiles.git .vim
+    git clone git@github.com:trevormorse/vimfiles.git ~/.vim
 
 Create symlinks:
 
