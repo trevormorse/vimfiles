@@ -1,1 +1,21 @@
 My vim config files
+
+Installation:
+
+    git clone git@github.com:trevormorse/vimfiles.git .vim
+
+Create symlinks:
+
+    ln -s ~/.vim/vimrc ~/.vimrc
+
+Switch to the `~/.vim` directory, and fetch submodules:
+
+    cd ~/.vim
+    git submodule init
+    git submodule update
+
+If you want to use vim-task you'll need to do this:
+
+    cd ~/.vim
+    mkdir ftdetect
+    ln -s ~/.vim/bundle/vim-task/ftdetect/task.vim ftdetect/task.vim
