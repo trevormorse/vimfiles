@@ -134,7 +134,7 @@ autocmd BufWritePre *.inc :%s/\s\+$//e
 autocmd BufWritePre *.tpl :%s/\s\+$//e
 
 " Autoclose for [, (, {, " and '
-source /home/trevor/.vim/bundle/autoclose/autoclose.vim
+source ~/.vim/bundle/autoclose/autoclose.vim
 
 " F6 toggles line numbers
 map <F6> :set invnumber number?<CR>
@@ -190,7 +190,7 @@ nmap <leader>n :NERDTreeToggle<CR>
 let NERDTreeShowBookmarks=1
 
 " Store the bookmarks file in perforce
-let NERDTreeBookmarksFile="/home/trevor/NERDTreeBookmarks"
+let NERDTreeBookmarksFile="~/NERDTreeBookmarks"
 
 " Toggle window
 nmap <leader>w <C-w>w
