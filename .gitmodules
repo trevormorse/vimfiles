@@ -16,3 +16,15 @@
 [submodule "bundle/tabular"]
 	path = bundle/tabular
 	url = https://github.com/godlygeek/tabular.git
+[submodule "bundle/fuzzyfinder"]
+	path = bundle/fuzzyfinder
+	url = https://github.com/vim-scripts/FuzzyFinder.git
+[submodule "bundle/L9"]
+	path = bundle/L9
+	url = https://github.com/vim-scripts/L9.git
+[submodule "bundle/vim-fugitive"]
+	path = bundle/vim-fugitive
+	url = https://github.com/tpope/vim-fugitive.git
+[submodule "bundle/vim-rails"]
+	path = bundle/vim-rails
+	url = https://github.com/tpope/vim-rails.git
