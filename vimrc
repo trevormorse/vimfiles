@@ -89,9 +89,10 @@ if has("gui_running")
     set guioptions-=T
     set guioptions-=r
 
-    " automatically chdir to the directory of open buffer
-    set autochdir
 endif
+
+" automatically chdir to the directory of open buffer
+set autochdir
 
 " .module files are php
 syntax on
