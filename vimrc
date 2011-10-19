@@ -88,7 +88,6 @@ if has("gui_running")
     set guioptions-=m
     set guioptions-=T
     set guioptions-=r
-
 endif
 
 " automatically chdir to the directory of open buffer
@@ -164,6 +163,9 @@ nmap <leader><Right> :tabnext<CR>
 " Simplifying copy and paste globally
 nmap <leader>gp "+gp
 vmap <leader>gy "+y
+
+" Simplifying tabulator command
+vmap <leader>t :<backspace><backspace><backspace><backspace><backspace>Tab/=<CR>
 
 " Simplifying open/close folds
 nmap <leader>o zo
