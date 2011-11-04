@@ -78,7 +78,7 @@ set errorformat=%m\ in\ %f\ on\ line\ %l
 
 " Set default font
 " set gfn=Liberation\ Mono\ 9 
-set gfn=Inconsolata\ 10 
+set gfn=Consolas:h10
 
 " set the default size of the window
 "set lines=50 columns=130
@@ -267,3 +267,10 @@ function! GuiTabLabel()
 endfunction
 
 set guitablabel=%{GuiTabLabel()}
+
+" Cross hair
+set cursorline
+set cursorcolumn
+
+" Open all buffers in tabs
+:au BufAdd,BufNewFile * nested tab sball
