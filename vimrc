@@ -193,7 +193,7 @@ nmap <leader>n :NERDTreeToggle<CR>
 let NERDTreeShowBookmarks=1
 
 " Store the bookmarks file in perforce
-let NERDTreeBookmarksFile="~/NERDTreeBookmarks"
+let NERDTreeBookmarksFile="/home/trevor/NERDTreeBookmarks"
 
 " Toggle window
 nmap <leader>w <C-w>w
@@ -222,6 +222,9 @@ inoremap jj <ESC>
 
 " toggle task status
 map <silent> <leader>ts <ESC>:call Toggle_task_status()<CR>
+
+" toggle tag list
+map <silent> <leader>tl <ESC>:TlistOpen<CR>
 
 " Show unecessary whitespace and newlines 
 set list
@@ -271,6 +274,3 @@ set guitablabel=%{GuiTabLabel()}
 " Cross hair
 set cursorline
 set cursorcolumn
-
-" Open all buffers in tabs
-:au BufAdd,BufNewFile * nested tab sball
