@@ -77,8 +77,8 @@ set makeprg=php\ -l\ %
 set errorformat=%m\ in\ %f\ on\ line\ %l
 
 " Set default font
-" set gfn=Liberation\ Mono\ 9 
-set gfn=Consolas:h10
+set gfn=Liberation\ Mono\ 9 
+" set gfn=Consolas:h10
 
 " set the default size of the window
 "set lines=50 columns=130
@@ -274,3 +274,7 @@ set guitablabel=%{GuiTabLabel()}
 " Cross hair
 set cursorline
 set cursorcolumn
+
+" XDebug options
+let g:dbgPavimPort = 9009 
+let g:dbgPavimBreakAtEntry = 0 
